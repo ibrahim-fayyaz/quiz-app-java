@@ -1,0 +1,15 @@
+# IntelliJ specific
+.idea/
+*.iml
+out/
+target/
+
+# Compiled files
+*.class
+
+# Mac specific
+.DS_Store
+
+# Build directories
+build/
+bin/
