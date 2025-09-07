@@ -36,5 +36,5 @@ A Java quiz game that fetches Computer Science questions from OpenTDB API, featu
 - Main.java: Entry point
 - GUI.java: User interface
 - QuizBrain.java: Quiz logic
-- Data.java:
+- Data.java: API handling
 
