@@ -1,23 +1,40 @@
 # Java Quiz Application
 
-A simple quiz application built with Java Swing, demonstrating:
-- GUI development with Java Swing
-- JSON data handling with GSON
-- HTML entity processing with JSoup
+A Java quiz game that fetches Computer Science questions from OpenTDB API, featuring:
+- Interactive GUI built with Java Swing
+- Real-time question fetching using HttpClient
+- Dynamic score tracking and feedback
 
 ## Development Notes
-- GUI implementation was developed with AI assistance as a learning exercise
-- Focus on understanding Java Swing components and event handling
-- Custom implementation of quiz logic and data management
+- Built with IntelliJ IDEA
+- Uses OpenTDB API for trivia questions
+- Implements HTML entity decoding
+- Handles JSON response parsing
 
 ## Technologies
 - Java 11+
-- Swing for GUI
+- Java Swing for GUI
 - GSON for JSON parsing
 - JSoup for HTML handling
+- HttpClient for API requests
+
+## Features
+- True/False quiz format
+- Score tracking
+- Visual feedback
+- Error handling
+- Clean modern interface
 
 ## Setup
 1. Clone the repository
-2. Open in your favorite Java IDE
-3. Run Main.java
+2. Open in IntelliJ IDEA
+3. Ensure Java 11+ is installed
+4. Run Main.java
+5. Internet connection required for questions
+
+## Project Structure
+- Main.java: Entry point
+- GUI.java: User interface
+- QuizBrain.java: Quiz logic
+- Data.java:
 
